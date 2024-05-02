@@ -39,7 +39,7 @@ let res={
 "Name":"",
 "Mobile Number":"675*******",
 }
-};
+}
 console.log(res)
 OUTPUT:
 {
@@ -116,7 +116,7 @@ let res={
     "Name":"",
     "Mobile Number":"675*******",
   }
-};
+}
 var resume=Object.keys(res);
 for(var i=0;i<resume.length;i++)
 {
@@ -165,7 +165,7 @@ let res={
     "Name":"",
     "Mobile Number":"675*******",
   }
-};
+}
 
 for(var i in res)
 {
