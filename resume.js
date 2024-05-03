@@ -326,3 +326,62 @@ Name:
 Mobile Number: 675*******
 
  D)forEach: 
+let resume={
+        "Name":"Salma M", 
+   "label":"Developer",
+        "Email":"sal@gmail.com",
+   "Phone":8760907651,
+   "location":{
+    "Address":"24,Sakthi Colony",
+    "postal code":641606,
+    "city":"Tiruppur",
+    'Country Code':"INDIA",
+   },
+   "profile":{
+    "network":"facebook",
+    "username":"XY",
+    "url":"https:/",
+   },
+  "Education" :{
+"Institution":"Bharathiar University",
+"College":"Maharani Arts and Science College",
+"Degree":"M.Sc",
+"Duration":"2012-2014",
+"score":82,
+  },
+  "skills":{
+    "name":"Web Development",
+    "Level":"Beginner",
+    "Key Words":["HTML","VB","JS"],
+  },
+  "Languages":{
+    "Known Languages":["Tamil","Hindi","English"],
+    "Fluency":["Tamil","Hindi"],
+  },
+  "Interest":{
+"Name":"Watching Movies",
+"Key words":"Rom-Com Movies",
+  },
+  "Reference":{
+    "Name":"",
+    "Mobile Number":"675*******",
+  }
+}
+
+ Object.entries(resume).forEach(([key,value])=>
+{
+  if(typeof value==='object')
+{
+  console.log(`${key}:`)
+  Object.entries(value).forEach(([subkey,subvalue])=>
+{
+  console.log(`${subkey}: ${subvalue}`);
+});
+console.log(`${key}: ${value}`);
+}
+});
+// OUTPUT:
+
+
+
+
