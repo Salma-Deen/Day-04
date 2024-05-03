@@ -41,7 +41,9 @@ let res={
 }
 }
 console.log(res)
-OUTPUT:
+
+// OUTPUT:
+
 {
   Name: 'Salma M',
   label: 'Developer',
@@ -122,7 +124,9 @@ for(var i=0;i<resume.length;i++)
 {
   console.log(res[resume[i]])
 }
+
 // OUTPUT:
+
 Salma M
 Developer
 sal@gmail.com
@@ -200,7 +204,9 @@ for(var i in res)
 {
   console.log(res[i])
 }
-OUTPUT:
+
+// OUTPUT:
+
 Salma M
 Developer
 sal@gmail.com
